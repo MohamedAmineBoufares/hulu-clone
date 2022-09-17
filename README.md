@@ -4,6 +4,7 @@ A small [Hulu](<[Hulu](https://www.hulu.com/welcome?orig_referrer=https%3A%2F%2F
 
 - Next.js
 - Tailwind CSS
+- [TMDB](https://www.themoviedb.org/?language=fr)
 
 ## Getting Started
 
@@ -26,3 +27,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - Node: 16.14.2
 - yarn: 1.22.18
 - npm: 8.5.0
+
+## Useful links
+
+- [Heroicons](https://heroicons.com/)
+- [Heroicons import list](https://unpkg.com/browse/@heroicons/react@2.0.11/24/outline/)

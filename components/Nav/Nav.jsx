@@ -1,6 +1,13 @@
+import { useRouter } from "next/router";
 import requests from "../../utils/requests/requests";
 
 function Nav() {
+  const router = useRouter();
+
+  const handleFetch = (key) => {
+    router.push(`/?genre=${key}`);
+  };
+
   return (
     <nav className="relative">
       <div
@@ -12,6 +19,7 @@ function Nav() {
             key={key}
             className="last:pr-24 cursor-pointer transition duration-100 transform hover:scale-125
              hover:text-white active:text-red-500"
+            onClick={() => handleFetch(key)}
           >
             {title}
           </h2>
