@@ -1,7 +1,7 @@
 import Image from "next/image";
 import HeaderItem from "../HeaderItem/HeaderItem";
 
-import Icons from "../../consts/Icons";
+import Icons from "../../utils/consts/Icons";
 
 function Header() {
   return (
