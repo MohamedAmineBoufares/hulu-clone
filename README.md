@@ -32,3 +32,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 - [Heroicons](https://heroicons.com/)
 - [Heroicons import list](https://unpkg.com/browse/@heroicons/react@2.0.11/24/outline/)
+
+## DEMO
+
+- [Vercel link](https://hulu-clone-1wu7q1aig-mohamedamineboufares.vercel.app/)
