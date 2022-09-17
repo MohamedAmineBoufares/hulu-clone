@@ -1,14 +1,18 @@
 import Image from "next/image";
 import { BASE_URL } from "../../utils";
 import { HandThumbUpIcon } from "@heroicons/react/24/outline";
+import { forwardRef } from "react";
 
-function Thumbnail({ result }) {
+const Thumbnail = forwardRef(({ result }, ref) => {
   const src =
     `${BASE_URL}${result.backdrop_path || result.poster_path}` ||
     `${BASE_URL}${result.poster_path}`;
 
   return (
-    <div className="group cursor-pointer p-2 transition duration-200 ease-in transform sm:hover:scale-105 hover:z-50">
+    <div
+      ref={ref}
+      className="group cursor-pointer p-2 transition duration-200 ease-in transform sm:hover:scale-105 hover:z-50"
+    >
       <Image
         layout="responsive"
         src={src}
@@ -34,6 +38,9 @@ function Thumbnail({ result }) {
       </div>
     </div>
   );
-}
+});
+
+// set display name
+Thumbnail.displayName = "Thumbnail";
 
 export default Thumbnail;
