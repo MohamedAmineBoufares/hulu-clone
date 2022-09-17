@@ -1,4 +1,4 @@
-A small [Hulu](<[Hulu](https://www.hulu.com/welcome?orig_referrer=https%3A%2F%2Fwww.google.com%2F)>) clone that I'm building with the help of [Sonny Sangha's youtube video](https://www.youtube.com/watch?v=MqDlsjc8GLo&t=3s&ab_channel=SonnySangha).
+A small [Hulu](<[Hulu](https://www.hulu.com/welcome?orig_referrer=https%3A%2F%2Fwww.google.com%2F)>) clone that I'm building with the help of [Sonny Sangha's YouTube video](https://www.youtube.com/watch?v=MqDlsjc8GLo&t=3s&ab_channel=SonnySangha).
 
 ## Technologies used
 
@@ -7,7 +7,7 @@ A small [Hulu](<[Hulu](https://www.hulu.com/welcome?orig_referrer=https%3A%2F%2F
 
 ## Getting Started
 
-First, install the dependicies:
+First, install the dependencies:
 
 ```bash
 yarn install
